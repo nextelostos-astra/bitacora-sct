@@ -145,7 +145,7 @@ if archivo_cargado is not None:
                     str_totales     = minutes_a_hhmm(sum(minutos_totales_actividad.values()))
 
                     texto_resumen = (
-                        f"RESUMEN DIARIO Total 24:00 h:\n"
+                        f"RESUMEN DIARIO :\n"
                         f"• Conduciendo: {str_conduciendo} h\n"
                         f"• Maniobras: {str_maniobras} h\n"
                         f"• Durmiendo: {str_durmiendo} h\n"
