@@ -152,7 +152,7 @@ if archivo_cargado is not None:
                         f"• Fuera de Serv: {str_fuera_serv} h\n"
                         f"Total Control: {str_totales} h"
                     )
-                    ax.text(-2.5, -1.6, texto_resumen, fontsize=9, style='italic',
+                    ax.text(-2.5, -2.6, texto_resumen, fontsize=9, style='italic',
                             bbox={'facecolor': '#f9f9f9', 'alpha': 0.8, 'pad': 6}, transform=ax.transData)
 
                     ax.set_xlim(0, 24)
